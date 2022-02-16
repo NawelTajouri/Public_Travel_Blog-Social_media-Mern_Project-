@@ -1,0 +1,23 @@
+.custom-input{
+    
+    border: none;
+    border-bottom: solid 1px #770d72;
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #770d72 4%);
+    /* background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat; */
+    color: #0e6252;
+  
+}
+.modal-button button{
+    background-color: rgb(238, 212, 241);
+    color: #770d72;
+    margin-left: 100px;
+    margin-top: 20px;
+   width: 100px;
+   height: 50px;
+   border-color: darkorchid;
+   border-radius: 30%;
+   
+}

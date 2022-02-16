@@ -1,0 +1,77 @@
+/* .homePage{
+background-image:url(https://wallpaperaccess.com/full/185289.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+height: 1000px;
+} */
+h1{
+    font-family:Baskerville,Times,'Times New Roman',serif;
+ font-size:75px;
+ color:#c22277;
+ font-variant:small-caps;
+ text-align:center;
+ font-weight:bold;
+ padding:15px 0px 15px 0px; /* Tweak this to your liking */
+ margin-top: 100px;
+}
+p{
+    font-family:'Helvetica Neue',Arial,sans-serif;font-size:15px;
+ font-weight:bold;
+ margin:10px 0px 10px 20px; /* Tweak this to your liking (also add padding) */
+ letter-spacing:3px;
+ text-align: center;
+}
+
+.RegisterImage{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 200px
+
+}
+.RegisterImage img{
+    width: 600px;
+    height: 300px;
+}
+.RegisterImage p{
+    margin-top: 100px;
+}
+.LoginImage{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 200px
+}
+.LoginImage img{
+    width: 600px;
+    height: 300px;
+}
+.LoginImage p{
+    margin-top: 100px;
+}
+.ProfileImage{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 200px
+}
+.ProfileImage img{
+    width: 600px;
+    height: 300px;
+}
+.ProfileImage p{
+    margin-top: 100px;
+}
+.AddPostImage{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 200px
+}
+.AddPostImage img{
+    width: 600px;
+    height: 300px;
+}
+.AddPostImage p{
+    margin-top: 100px;
+}

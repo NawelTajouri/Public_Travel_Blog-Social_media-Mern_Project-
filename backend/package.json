@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^4.0.1",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "uuid": "^8.3.2"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "admin.js",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon admin.js",
+    "dev": "concurrently \"nodemon server.js\" \"cd.. && cd client && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
